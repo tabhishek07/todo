@@ -15,6 +15,7 @@ body{
     padding: 2rem;
     border-radius: 25px;
     width: 360px;
+    max-width: 75vw;
     box-shadow: 0 4px 20px rgb(0,0,0,0.1);
 }
 
