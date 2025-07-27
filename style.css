@@ -1,0 +1,122 @@
+
+body{
+    background: linear-gradient(135deg, #f0d68b, #c79dd7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.todo_container{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 360px;
+    box-shadow: 0 4px 20px rgb(0,0,0,0.1);
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #e6bfc5;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.progressbar_bg{
+    width: 100%;
+    height: 6px;
+    background: #eee;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.progressbar_fill{
+    height: 100%;
+    width: 0;
+    background: #e85959;
+    border-radius: 4px;
+}
+
+.task_ctr{
+    background: #f0b6c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.input_section{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.input_section input{
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    background: #f0b6c2;
+    border-radius: 7px;
+    outline: none;
+}
+
+.input_section button{
+    background: #e899e8;
+    height: 36px;
+    width: 36px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background: #f0b6c2;
+    margin-bottom: 0.5rem;
+    border-radius: 7px;
+
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #b7676f;
+}
+
+li button {
+  background: #e85959;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* space between checkbox and text */
+}
